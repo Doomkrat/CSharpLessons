@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConstructorsDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Rectangle r2 = new Rectangle(5, 2);
+            Console.WriteLine("Area:{0}", r2.GetArea());
+
+            Calculator c = new Calculator();
+            Console.WriteLine("{0}", c.Add(1, 2));
+            Console.WriteLine("{0}", c.Add(1, 2, 3));
+
+            Console.ReadLine();
+        }
+    }
+}
