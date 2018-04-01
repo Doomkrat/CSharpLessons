@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\bin\Debug\FunWithStrings.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\bin\Debug\FunWithStrings.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\bin\Debug\FunWithStrings.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\obj\Debug\FunWithStrings.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\obj\Debug\FunWithStrings.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\obj\Debug\FunWithStrings.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\FunWithStrings\obj\Debug\FunWithStrings.pdb

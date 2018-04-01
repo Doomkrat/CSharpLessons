@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\bin\Debug\RPGInventory.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\bin\Debug\RPGInventory.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\bin\Debug\RPGInventory.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\obj\Debug\RPGInventory.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\obj\Debug\RPGInventory.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\obj\Debug\RPGInventory.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\RPGInventory\obj\Debug\RPGInventory.pdb

@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\bin\Debug\CoinFlip.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\bin\Debug\CoinFlip.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\bin\Debug\CoinFlip.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\obj\Debug\CoinFlip.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\obj\Debug\CoinFlip.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\obj\Debug\CoinFlip.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\CoinFlip\obj\Debug\CoinFlip.pdb

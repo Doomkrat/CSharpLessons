@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\bin\Debug\ArraysInCSharp.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\bin\Debug\ArraysInCSharp.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\bin\Debug\ArraysInCSharp.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\obj\Debug\ArraysInCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\obj\Debug\ArraysInCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\obj\Debug\ArraysInCSharp.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraysInCSharp\obj\Debug\ArraysInCSharp.pdb

@@ -1,0 +1,14 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\bin\Debug\ArraySort.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\bin\Debug\ArraySort.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\bin\Debug\ArraySort.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.csprojResolveAssemblyReference.cache
+C:\Users\User\repos\CSharpLessons\ArraySort\bin\Debug\ArraySort.exe.config
+C:\Users\User\repos\CSharpLessons\ArraySort\bin\Debug\ArraySort.exe
+C:\Users\User\repos\CSharpLessons\ArraySort\bin\Debug\ArraySort.pdb
+C:\Users\User\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.csprojResolveAssemblyReference.cache
+C:\Users\User\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.csproj.CoreCompileInputs.cache
+C:\Users\User\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.exe
+C:\Users\User\repos\CSharpLessons\ArraySort\obj\Debug\ArraySort.pdb

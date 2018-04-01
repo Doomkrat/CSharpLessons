@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\bin\Debug\OutputParameters.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\bin\Debug\OutputParameters.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\bin\Debug\OutputParameters.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\obj\Debug\OutputParameters.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\obj\Debug\OutputParameters.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\obj\Debug\OutputParameters.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\OutputParameters\obj\Debug\OutputParameters.csprojResolveAssemblyReference.cache

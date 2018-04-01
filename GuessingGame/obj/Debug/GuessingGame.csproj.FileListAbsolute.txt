@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\bin\Debug\GuessingGame.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\bin\Debug\GuessingGame.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\bin\Debug\GuessingGame.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\obj\Debug\GuessingGame.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\obj\Debug\GuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\obj\Debug\GuessingGame.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\GuessingGame\obj\Debug\GuessingGame.pdb

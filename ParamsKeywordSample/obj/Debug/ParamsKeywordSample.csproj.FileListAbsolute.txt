@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\bin\Debug\ParamsKeywordSample.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\bin\Debug\ParamsKeywordSample.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\bin\Debug\ParamsKeywordSample.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\obj\Debug\ParamsKeywordSample.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\obj\Debug\ParamsKeywordSample.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\obj\Debug\ParamsKeywordSample.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParamsKeywordSample\obj\Debug\ParamsKeywordSample.pdb

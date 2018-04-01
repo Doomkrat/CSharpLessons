@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\bin\Debug\ParametersAndReturnValues.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\bin\Debug\ParametersAndReturnValues.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\bin\Debug\ParametersAndReturnValues.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\obj\Debug\ParametersAndReturnValues.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\obj\Debug\ParametersAndReturnValues.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\obj\Debug\ParametersAndReturnValues.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ParametersAndReturnValues\obj\Debug\ParametersAndReturnValues.pdb

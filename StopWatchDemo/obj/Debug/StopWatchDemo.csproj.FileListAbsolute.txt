@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\bin\Debug\StopWatchDemo.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\bin\Debug\StopWatchDemo.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\bin\Debug\StopWatchDemo.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\obj\Debug\StopWatchDemo.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\obj\Debug\StopWatchDemo.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\obj\Debug\StopWatchDemo.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\StopWatchDemo\obj\Debug\StopWatchDemo.pdb

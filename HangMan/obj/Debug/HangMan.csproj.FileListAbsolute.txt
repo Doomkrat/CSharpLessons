@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\bin\Debug\HangMan.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\bin\Debug\HangMan.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\bin\Debug\HangMan.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\obj\Debug\HangMan.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\obj\Debug\HangMan.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\HangMan\obj\Debug\HangMan.pdb

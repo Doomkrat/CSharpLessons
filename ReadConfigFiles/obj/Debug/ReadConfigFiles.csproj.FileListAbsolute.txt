@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\bin\Debug\ReadConfigFiles.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\bin\Debug\ReadConfigFiles.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\bin\Debug\ReadConfigFiles.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\obj\Debug\ReadConfigFiles.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\obj\Debug\ReadConfigFiles.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\obj\Debug\ReadConfigFiles.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ReadConfigFiles\obj\Debug\ReadConfigFiles.pdb

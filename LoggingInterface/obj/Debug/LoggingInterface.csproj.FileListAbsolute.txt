@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\bin\Debug\LoggingInterface.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\bin\Debug\LoggingInterface.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\bin\Debug\LoggingInterface.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\obj\Debug\LoggingInterface.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\obj\Debug\LoggingInterface.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\obj\Debug\LoggingInterface.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\LoggingInterface\obj\Debug\LoggingInterface.pdb

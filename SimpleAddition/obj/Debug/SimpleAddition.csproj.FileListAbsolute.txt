@@ -1,0 +1,14 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\bin\Debug\SimpleAddition.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\bin\Debug\SimpleAddition.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\bin\Debug\SimpleAddition.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.csprojResolveAssemblyReference.cache
+C:\Users\User\repos\CSharpLessons\SimpleAddition\bin\Debug\SimpleAddition.exe.config
+C:\Users\User\repos\CSharpLessons\SimpleAddition\bin\Debug\SimpleAddition.exe
+C:\Users\User\repos\CSharpLessons\SimpleAddition\bin\Debug\SimpleAddition.pdb
+C:\Users\User\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.csprojResolveAssemblyReference.cache
+C:\Users\User\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.csproj.CoreCompileInputs.cache
+C:\Users\User\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.exe
+C:\Users\User\repos\CSharpLessons\SimpleAddition\obj\Debug\SimpleAddition.pdb

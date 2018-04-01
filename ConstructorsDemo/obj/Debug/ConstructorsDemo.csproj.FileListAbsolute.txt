@@ -1,0 +1,7 @@
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\bin\Debug\ConstructorsDemo.exe.config
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\bin\Debug\ConstructorsDemo.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\bin\Debug\ConstructorsDemo.pdb
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\obj\Debug\ConstructorsDemo.csprojResolveAssemblyReference.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\obj\Debug\ConstructorsDemo.csproj.CoreCompileInputs.cache
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\obj\Debug\ConstructorsDemo.exe
+C:\Users\Doomkrat\source\repos\CSharpLessons\ConstructorsDemo\obj\Debug\ConstructorsDemo.pdb
