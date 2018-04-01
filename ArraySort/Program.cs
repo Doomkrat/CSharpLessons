@@ -11,15 +11,15 @@ namespace ArraySort
     {
         static void Main(string[] args)
         {
-            //int[] array = { 25, 15, 18, 26, 78, 1, 79, 3, 55, 7 };
-            //Console.WriteLine("Not sorted array:");
-            //PrintElements(array);
-            //BubbleSort(array);
-            //Console.WriteLine("Bubble Sorted Array:");
-            //PrintElements(array);
-            //Console.WriteLine("Simple Sorted Array:");
-            //PrintElements(array);
-            //Console.ReadLine();
+            int[] array = { 25, 15, 18, 26, 78, 1, 79, 3, 55, 7 };
+            Console.WriteLine("Not sorted array:");
+            PrintElements(array);
+            BubbleSort(array);
+            Console.WriteLine("Bubble Sorted Array:");
+            PrintElements(array);
+            Console.WriteLine("Simple Sorted Array:");
+            PrintElements(array);
+            Console.ReadLine();
 
             int[,] array2D = { { 5, 1, 110 }, { 99, 4, 1100 } };
             Console.WriteLine("2D Array:");
