@@ -23,7 +23,10 @@ namespace ArraySort
             PrintElements(array1);
             Console.ReadLine();
 
-            int[,] array2D = { { 5, 1, 110, 4, 15, 6, 8 }, { 99, 4, 1100, 6, 78, 9, 54 }, { 15, 11, 110, 14, 15, 6, 18 }, { 299, 4, 1100, 6, 178, 9, 154 } };
+            int[,] array2D = { { 5, 1, 110, 4, 15, 6, 8 }, 
+                               { 99, 4, 1100, 6, 78, 9, 54 }, 
+                                { 15, 11, 110, 14, 15, 6, 18 }, 
+                                 { 299, 4, 1100, 6, 178, 9, 154 } };
             Console.WriteLine("2D Array:");
             Print2dArray(array2D);
             Console.WriteLine("Sorted 2DArray:");
@@ -75,7 +78,7 @@ namespace ArraySort
             }
             Console.ReadLine();
         }
-        
+
         static void SimpleSort(int[] array)
         {
             int iter = 0;
@@ -102,24 +105,45 @@ namespace ArraySort
         static void SimpleSort2D(int[,] arr)
         {
             int iter = 0;
-            for (int i = 0; i < arr.GetLength(0); i++) // Array Sorting
+            int n = arr.GetLength(0);
+            int m = arr.GetLength(1);
+            for (int k = 0; k < n; ++k)
             {
-                for (int j = arr.GetLength(1) - 1; j > 0; j--)
+                for (int l = 0; l < m; ++l)
                 {
-
-                    for (int k = 0; k < j; k++)
+                    for (int i = 0; i < n; ++i)
                     {
-                        if (arr[i, k] > arr[i, k + 1])
+                        for (int j = 0; j < m ; ++j)
                         {
-                            int temp = arr[i, k];
-                            arr[i, k] = arr[i, k + 1];
-                            arr[i, k + 1] = temp;
-                            iter++;
+                            if ((i + 1) == n && (j + 1) == m)
+                            {
+                                continue;
+                            }
+                            else
+                            if ((j + 1 == m) && (arr[i, j] > arr[i + 1, 0]))
+                            {
+                                int temp = arr[i, j];
+                                arr[i, j] = arr[i + 1, 0];
+                                arr[i + 1, 0] = temp;
+                                iter++;
+                            }
+
+                            else
+                            if (arr[i, j] > arr[i, j + 1])
+                            {
+                                int temp = arr[i, j];
+                                arr[i, j] = arr[i, j + 1];
+                                arr[i, j + 1] = temp;
+                                iter++;
+                            }
+
                         }
                     }
                 }
+                Console.WriteLine("Total amount of iterations is {0}", iter);
             }
-            Console.WriteLine("Total amount of iterations is {0}", iter);
+
         }
     }
 }
+    
