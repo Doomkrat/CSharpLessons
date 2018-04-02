@@ -12,16 +12,18 @@ namespace ArraySort
         static void Main(string[] args)
         {
             int[] array = { 25, 15, 18, 26, 78, 1, 79, 3, 55, 7 };
+            int[] array1 = { 25, 15, 18, 26, 78, 1, 79, 3, 55, 7 };
             Console.WriteLine("Not sorted array:");
             PrintElements(array);
             BubbleSort(array);
             Console.WriteLine("Bubble Sorted Array:");
             PrintElements(array);
             Console.WriteLine("Simple Sorted Array:");
-            PrintElements(array);
+            SimpleSort(array1);
+            PrintElements(array1);
             Console.ReadLine();
 
-            int[,] array2D = { { 5, 1, 110 }, { 99, 4, 1100 } };
+            int[,] array2D = { { 5, 1, 110, 4, 15, 6, 8 }, { 99, 4, 1100, 6, 78, 9, 54 }, { 15, 11, 110, 14, 15, 6, 18 }, { 299, 4, 1100, 6, 178, 9, 154 } };
             Console.WriteLine("2D Array:");
             Print2dArray(array2D);
             Console.WriteLine("Sorted 2DArray:");
@@ -31,7 +33,7 @@ namespace ArraySort
 
         static void BubbleSort(int[] array)
         {
-
+            int iter = 0;
             for (int i = array.Length - 1; i > 0; i--)
             {
                 for (int j = 0; j < i; j++)
@@ -41,9 +43,11 @@ namespace ArraySort
                         int tmp = array[j];
                         array[j] = array[j + 1];
                         array[j + 1] = tmp;
+                        iter++;
                     }
                 }
             }
+            Console.WriteLine("Total amount of iterations is {0}", iter);
 
         }
         static void PrintElements(int[] numbers)
@@ -74,6 +78,7 @@ namespace ArraySort
         
         static void SimpleSort(int[] array)
         {
+            int iter = 0;
             for (int i = 0; i < array.Length - 1; i++)
             {
                 int min = array[i];
@@ -84,16 +89,19 @@ namespace ArraySort
                     {
                         min = array[j];
                         index = j;
+                        iter++;
                     }
                 }
                 int tmp = array[i];
                 array[i] = array[index];
                 array[index] = tmp;
             }
+            Console.WriteLine("Total amount of iterations is {0}", iter);
         }
 
         static void SimpleSort2D(int[,] arr)
         {
+            int iter = 0;
             for (int i = 0; i < arr.GetLength(0); i++) // Array Sorting
             {
                 for (int j = arr.GetLength(1) - 1; j > 0; j--)
@@ -106,11 +114,12 @@ namespace ArraySort
                             int temp = arr[i, k];
                             arr[i, k] = arr[i, k + 1];
                             arr[i, k + 1] = temp;
+                            iter++;
                         }
                     }
                 }
             }
-
+            Console.WriteLine("Total amount of iterations is {0}", iter);
         }
     }
 }
