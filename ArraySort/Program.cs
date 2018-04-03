@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,8 @@ namespace ArraySort
     {
         static void Main(string[] args)
         {
-            int[] array = { 25, 15, 18, 26, 78, 1, 79, 3, 55, 7 };
-            int[] array1 = { 25, 15, 18, 26, 78, 1, 79, 3, 55, 7 };
+            int[] array = {25, 15, 18, 26, 78, 1, 79, 3, 55, 7};
+            int[] array1 = {25, 15, 18, 26, 78, 1, 79, 3, 55, 7};
             Console.WriteLine("Not sorted array:");
             PrintElements(array);
             BubbleSort(array);
@@ -23,15 +24,13 @@ namespace ArraySort
             PrintElements(array1);
             Console.ReadLine();
 
-            int[,] array2D = { { 5, 1, 110, 4, 12},
-                               { 99, 44, 1100, 6, 13},
-                                { 15, 11, 110, 14, 66},
-                                 { 299, 444, 1100, 6, -5 } };
+            
             Console.WriteLine("2D Array:");
-            Print2DArray(array2D);
+            var someArray = Fill2DArray(10, 13);
+            Print2DArray(someArray);
             Console.WriteLine("Sorted 2DArray:");
-            SimpleSort2D(array2D);
-            Print2DArray(array2D);
+            SimpleSort2D(someArray);
+            Print2DArray(someArray);
         }
 
         static void BubbleSort(int[] array)
@@ -50,9 +49,11 @@ namespace ArraySort
                     }
                 }
             }
+
             Console.WriteLine("Total amount of iterations is {0}", iter);
 
         }
+
         static void PrintElements(int[] numbers)
         {
             for (var i = 0; i < numbers.Length; i++)
@@ -72,11 +73,24 @@ namespace ArraySort
             {
                 for (var j = 0; j < colLength; j++)
                 {
-                    Console.Write(string.Format("{0} ", numb[i, j]));
+                    Console.Write($"{numb[i, j]} ");
                 }
+
                 Console.Write(Environment.NewLine + Environment.NewLine);
             }
+
             Console.ReadLine();
+        }
+
+         public static int[,] Fill2DArray(int x , int y)
+        {
+            var mas = new int[x, y];
+            var rand = new Random((int)Stopwatch.GetTimestamp());
+            for (var i = 0; i < x; i++)
+            for (var j = 0; j < y; j++)
+                mas[i, j] = rand.Next(-150, 150);
+
+            return mas;
         }
 
         static void SimpleSort(int[] array)
@@ -93,10 +107,12 @@ namespace ArraySort
                     index = j;
                     iter++;
                 }
+
                 var tmp = array[i];
                 array[i] = array[index];
                 array[index] = tmp;
             }
+
             Console.WriteLine("Total amount of iterations is {0}", iter);
         }
 
@@ -106,38 +122,47 @@ namespace ArraySort
             var numberOfRows = arr.GetLength(0);
             var numberofColumns = arr.GetLength(1);
 
-            for (var k = 0; k < numberOfRows; ++k)
+            for (var k = 0; k < numberOfRows * numberofColumns; ++k)//Общий счетчик
             {
-                for (var l = 0; l < numberofColumns; ++l)
+                for (var i = 0; i < numberOfRows; ++i)
                 {
-                    for (var i = 0; i < numberOfRows; ++i)
+                    for (var j = 0; j < numberofColumns; ++j)
                     {
-                        for (var j = 0; j < numberofColumns; ++j)
+                        iter++;
+                        if ((i + 1) == numberOfRows && (j + 1) == numberofColumns)
                         {
-                            if ((i + 1) == numberOfRows && (j + 1) == numberofColumns) continue;
+                            continue;//начинаем наш цикл заново если счетчик доходит до этих значений
+                        }
 
-                            if ((j + 1 == numberofColumns) && (arr[i, j] > arr[i + 1, 0]))
+                        if ((j + 1 == numberofColumns) && (arr[i, j] > arr[i + 1, 0]))//если элемент является последним в строке и больше чем первый элемент в следующей строке
+                        {
+                            var temp = arr[i, j];//то меняем их местами
+                            arr[i, j] = arr[i + 1, 0];
+                            arr[i + 1, 0] = temp;
+                        }
+                        else
+                        {
+                            if (j + 1 == numberofColumns)
                             {
-                                var temp = arr[i, j];
-                                arr[i, j] = arr[i + 1, 0];
-                                arr[i + 1, 0] = temp;
-                                iter++;
+                                continue;//опять ограничитель чтобы не выходить за пределы массива
                             }
-                            else
+
+                            if (arr[i, j] <= arr[i, j + 1])
                             {
-                                if (j + 1 == numberofColumns) continue;
-                                if (arr[i, j] <= arr[i, j + 1]) continue;
-                                var temp = arr[i, j];
-                                arr[i, j] = arr[i, j + 1];
-                                arr[i, j + 1] = temp;
-                                iter++;
+                                continue;//если текущий элемент меньше чем следующий то ничего не делаем
                             }
+
+                            var temp = arr[i, j];//в обратном случае меняем их местами
+                            arr[i, j] = arr[i, j + 1];
+                            arr[i, j + 1] = temp;
                         }
                     }
                 }
-                Console.WriteLine("Total amount of iterations is {0}", iter);
             }
+
+            Console.WriteLine("Total amount of iterations is {0}", iter);
         }
     }
 }
+
     
