@@ -142,19 +142,13 @@ namespace ArraySort
                         }
                         else
                         {
-                            if (j + 1 == numberofColumns)
-                            {
-                                continue;//опять ограничитель чтобы не выходить за пределы массива
-                            }
-
-                            if (arr[i, j] <= arr[i, j + 1])
-                            {
-                                continue;//если текущий элемент меньше чем следующий то ничего не делаем
-                            }
-
-                            var temp = arr[i, j];//в обратном случае меняем их местами
-                            arr[i, j] = arr[i, j + 1];
-                            arr[i, j + 1] = temp;
+                            if (j + 1 != numberofColumns)
+                                if (arr[i, j] > arr[i, j + 1])
+                                {
+                                    var temp = arr[i, j];
+                                    arr[i, j] = arr[i, j + 1];
+                                    arr[i, j + 1] = temp;
+                                }
                         }
                     }
                 }
